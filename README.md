@@ -10,7 +10,7 @@ It is just a simple demo app using Spark + LightCouchDB + Java Integration.
 
 ```java
 curl -X GET -H "http://localhost:9090/messages"
-```java
+```
 
 ```java
 {
@@ -43,7 +43,7 @@ curl -X DELETE -H "Content-Type: application/json" -d '{
     "_rev" : "5-a7647eb614206367838bae923dfdcbff"
 }' "http://localhost:9090/messages/01a3621f32e54050b2addab7271f497a"
 
-```java
+```
 
 ```java
 {
@@ -64,7 +64,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
     "Message" : "Hello Guyz!!!"
 }' "http://localhost:9090/messages"
 
-```java
+```
 
 ```java
 {
@@ -87,7 +87,7 @@ curl -X PUT -H "Content-Type: application/json" -d '{
     "Message" : "Hello Guyz!!!"
 }' "http://localhost:9090/messages/f8f42f7e06074666857bc8e3eb240b19"
 
-```java
+```
 
 ```java
 {
